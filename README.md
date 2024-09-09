@@ -6,32 +6,47 @@
 
 # Project Overview
 
-This web application is designed to facilitate the daily operations of a police station, offering user-friendly interfaces and essential functionalities. This project leverages a combination of frontend and backend technologies to deliver a seamless user experience while ensuring robust data management and security protocols.
+This web application is designed to manage the daily operations of a library catalog system, providing user-friendly interfaces and essential functionalities for both administrators and users. It leverages a combination of frontend and backend technologies to ensure efficient library management, robust data handling, and secure user access. The system also features a responsive UI for users, allowing seamless access across devices, and includes state management to keep track of book availability, borrowings, and returns in real-time.
 
-# Pages:
+## Pages
 
-1. Dashboard: Provides an overview of key statistics and updates for efficient monitoring.
-2. Login: Allows regular officers and Duty Supervisors (Super Admin) to access their respective functionalities securely.
-3. Administrator Page: Exclusively accessible to Super Admins for managing users and system settings.
-4. Daily Cases Page: Enables users to view, track, and manage daily cases effectively.
-5. Follow Up Case Page: Facilitates the tracking and follow-up of ongoing cases.
-6. Incidents Page: Provides a platform for documenting and managing incidents as they occur.
-7. Settings: Regular officers can personalize their information and preferences within this section.
+1. **Dashboard**: Provides an overview of key statistics, such as borrowing and return activities, to help administrators monitor library operations.
+2. **Login**: Allows administrators to securely access their dashboard and manage the system.
+3. **Admin Dashboard**: Exclusively accessible to administrators for managing users, books, courses, and system settings.
+4. **Books Management**: Facilitates the uploading and categorization of books by their ISBN number and categories such as Mathematics, Science, etc.
+5. **Borrowing and Returns**: Enables the tracking and management of borrowed books and their return dates, with detailed logs available for review.
+6. **Students and Courses Management**: Allows the addition of students, their IDs, and the courses they are enrolled in, along with managing course codes.
+7. **Settings**: Admins can update their information, preferences, and system configurations as needed.
+8. **Reports and Analytics**: Provides visual representations, diagrams, and graphs showcasing borrowing and return transactions for data-driven decisions.
 
-# User Roles:
+## User Roles
 
-1. Ordinary User: Regular officers have unique logins assigned by the Super Admin. They can add, update, and follow up on cases, as well as download case details in PDF format and export data to Excel. Additionally, they have the autonomy to manage their own information within the Settings section.
+1. **Admin**: The administrator has the primary role of managing the entire library system. They can:
+   - Add, update, and delete student accounts.
+   - Manage course details, including adding new courses and their corresponding codes.
+   - Upload and categorize books based on their ISBN number and subjects.
+   - Track and manage the borrowing and return of books.
+   - View detailed transaction logs and access reports in graphical form to visualize the borrowing and return patterns.
+   - Update their personal information and make changes to system settings as required.
+   - Monitor the status of books in real-time using state management to determine whether a book is available, borrowed, or returned.
 
-2. Super Admin: Super Admins possess all the functionalities of ordinary users but also have the authority to manage all users within the system. This includes adding, updating, and deleting user accounts as necessary.
+2. **User**: Users (students) have restricted access with the following capabilities:
+   - Search the library catalog for available books.
+   - Borrow books from the library.
+   - Return borrowed books within the stipulated time frame.
+   - View the current status of books (available, borrowed, or returned) in real-time thanks to the state management system.
 
+## Features
+
+- **Responsive UI**: A fully responsive user interface that ensures a smooth experience for users on any device.
+- **State Management**: Real-time updates on the status of books, allowing both admins and users to see if a book is available, borrowed, or returned at any given time.
 
 ## Tech Stack
 
-**Client:** PHP, JavaScript, HTML, SCSS, CSS
-
-**Server:** PHP, Maria DB, MySql
-
+**Client**: LESS, jQuery, PHP, JavaScript,  
+**Server**: PHP, MySQL
 
 ## Authors
 
 - [@iBz-04](https://github.com/iBz-04)
+
