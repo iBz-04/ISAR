@@ -603,10 +603,10 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="https://freewebsitecode.com">ISAR</a>, All Rights Reserved.
+                        &copy; <a class="border-bottom">ISAR</a>, All Rights Reserved.
 
                         
-                        Designed By <a class="border-bottom" href="https://github.com/iBz-04">iBz</a>
+                        Developed By <a class="border-bottom" href="https://github.com/iBz-04">iBz</a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
