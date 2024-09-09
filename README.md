@@ -36,10 +36,11 @@ This web application is designed to manage the daily operations of a library cat
    - Return borrowed books within the stipulated time frame.
    - View the current status of books (available, borrowed, or returned) in real-time thanks to the state management system.
 
-## Features
+## Other Features
 
 - **Responsive UI**: A fully responsive user interface that ensures a smooth experience for users on any device.
 - **State Management**: Real-time updates on the status of books, allowing both admins and users to see if a book is available, borrowed, or returned at any given time.
+- ** Search filter**: Search and get answers/queries quickly- this is available to both user and admin
 
 ## Tech Stack
 
