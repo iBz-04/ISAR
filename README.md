@@ -1,9 +1,3 @@
-## Images
-<img src="https://res.cloudinary.com/diekemzs9/image/upload/v1725881708/Screenshot_9-9-2024_142249_localhost_ja0re7.jpg" alt="My Image" width="950"/>
-<img src="https://res.cloudinary.com/diekemzs9/image/upload/v1725881735/Screenshot_9-9-2024_142411_localhost_tbnjuf.jpg" alt="My Image" width="950"/>
-<img src="https://res.cloudinary.com/diekemzs9/image/upload/v1725881723/Screenshot_9-9-2024_142318_localhost_cuaojv.jpg" alt="My Image" width="950"/>
-
-
 # Project Overview
 
 This web application is designed to manage the daily operations of a library catalog system, providing user-friendly interfaces and essential functionalities for both administrators and users. It leverages a combination of frontend and backend technologies to ensure efficient library management, robust data handling, and secure user access. The system also features a responsive UI for users, allowing seamless access across devices, and includes state management to keep track of book availability, borrowings, and returns in real-time.
